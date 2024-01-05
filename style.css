@@ -1,0 +1,89 @@
+.div1{
+    background-image: url(netflix-symbol-black.png);
+    height: 700px;
+    
+}
+.div2{
+    display: flex;
+    flex-direction: row;  
+}
+.text{
+   
+    background-color: black;
+}
+button{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 70px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    
+}
+h1{
+    color: white;
+    /* display: flex; */
+    text-align:center ;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+.input{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    background-color: black;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+  
+}
+.f2{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+    
+}
+.f3{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+}
+.f4{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
